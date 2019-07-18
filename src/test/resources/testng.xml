@@ -5,7 +5,7 @@
         <parameter name="siteUrl" value="https://market.yandex.ru/"/>
         <parameter name="searchQuery" value="iphone"/>
         <classes>
-            <class name="ru.comp.tests.MarketTestClass"/>
+            <class name="ru.comp.tests.YandexMarketTest"/>
         </classes>
     </test>
 </suite>

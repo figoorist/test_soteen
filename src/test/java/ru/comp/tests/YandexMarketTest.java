@@ -1,6 +1,8 @@
 package ru.comp.tests;
 
+import org.junit.After;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -11,30 +13,38 @@ import ru.comp.utilities.Product;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class MarketTestClass {
+public class YandexMarketTest {
 
     private MarketHomePage marketHomePage;
     private MarketResultsPage marketResultsPage;
     private MarketProductPage marketProductPage;
 
     @BeforeClass
-    public void initPageObjects() {
+    @Parameters({"siteUrl"})
+    public void initPageObjects(String siteUrl) {
         marketHomePage = new MarketHomePage();
         marketResultsPage = new MarketResultsPage();
         marketProductPage = new MarketProductPage();
+        open(siteUrl);
     }
 
     @Test
-    @Parameters({"siteUrl", "searchQuery"})
-    public void testMarketPrice(String siteUrl, String searchQuery, Product product) {
-        open(siteUrl);
+    @Parameters({"searchQuery"})
+    public void testIPhone8MarketPrice(String searchQuery) {
+
         marketHomePage.Search(searchQuery);
-        int expectedPrice = marketResultsPage.GetProductScreenPrice(product);
+        int expectedPrice = marketResultsPage.GetProductScreenPrice(Product.IPhoneSE);
         System.out.println(expectedPrice);
 
         marketResultsPage.GoToProductPage(Product.IPhone8gb64);
         int productPagePrice = marketProductPage.GetProductPrice();
         System.out.println(productPagePrice);
-        Assert.assertEquals(expectedPrice, productPagePrice, "Prices are not equals");
+        Assert.assertEquals(productPagePrice, expectedPrice, "Prices are not equals");
+    }
+
+    @AfterClass
+    @Parameters({"siteUrl"})
+    public void tearDown(String siteUrl) {
+        open(siteUrl);
     }
 }

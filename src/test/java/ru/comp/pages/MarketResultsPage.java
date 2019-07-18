@@ -2,15 +2,14 @@ package ru.comp.pages;
 
 import com.codeborne.selenide.SelenideElement;
 import ru.comp.utilities.Product;
-
 import static com.codeborne.selenide.Selectors.byTitle;
 import static com.codeborne.selenide.Selectors.byXpath;
-import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.*;
 
 public class MarketResultsPage {
 
-    public void GoToProductPage(Product item) {
-        $(byTitle(item.screenTitle())).click();
+    public void GoToProductPage(Product product) {
+        GetProductBlock(product).scrollTo().$(byTitle(product.screenTitle())).click();
     }
 
     public SelenideElement GetProductBlock(Product product) {
@@ -18,6 +17,6 @@ public class MarketResultsPage {
     }
 
     public int GetProductScreenPrice(Product product) {
-        return Integer.parseInt(GetProductBlock(product).$(".price").text());
+        return Integer.parseInt(GetProductBlock(product).$(byXpath("//span[@class='price']")).text().replaceAll("[^\\d.]", ""));
     }
 }
