@@ -33,7 +33,7 @@ public class YandexMarketTest {
     public void testIPhone8MarketPrice(String searchQuery) {
 
         marketHomePage.Search(searchQuery);
-        int expectedPrice = marketResultsPage.GetProductScreenPrice(Product.IPhoneSE);
+        int expectedPrice = marketResultsPage.GetProductScreenPrice(Product.IPhone8gb64);
         System.out.println(expectedPrice);
 
         marketResultsPage.GoToProductPage(Product.IPhone8gb64);
