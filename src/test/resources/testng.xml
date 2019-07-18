@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tests" verbose="5">
+    <test name="test_soteen">
+        <parameter name="siteUrl" value="https://market.yandex.ru/"/>
+        <parameter name="searchQuery" value="iphone"/>
+        <classes>
+            <class name="ru.comp.tests.MarketTestClass"/>
+        </classes>
+    </test>
+</suite>
