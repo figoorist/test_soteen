@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bf46da5-dd34-47da-888d-bfc4293ba7bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketResultsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/tests/YandexMarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/tests/YandexMarketTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -35,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="68">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,15 +42,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/tests/YandexMarketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+            <state relative-caret-position="182">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1410#1411#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -84,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketResultsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="125">
+              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,8 +101,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/utilities/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="221">
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketProductPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="136">
               <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -146,11 +148,11 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/tests/MarketTestClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketProductPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/comp/utilities/Product.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/comp/utilities/Product.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketResultsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/tests/YandexMarketTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -253,8 +255,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,21 +354,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_viktor_java_projects_test_soteen_src_test_resources_testng_xml - 2019.07.18 at 23h 43m 03s.xml">
-      <configuration name="/home/viktor/java_projects/test_soteen/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_soteen_src_test_resources_testng_xml - 2019.07.18 at 23h 49m 13s.xml">
-      <configuration name="/home/viktor/java_projects/test_soteen/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_soteen_src_test_resources_testng_xml - 2019.07.18 at 23h 51m 45s.xml">
-      <configuration name="/home/viktor/java_projects/test_soteen/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_soteen_src_test_resources_testng_xml - 2019.07.18 at 23h 53m 24s.xml">
-      <configuration name="/home/viktor/java_projects/test_soteen/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_soteen_src_test_resources_testng_xml - 2019.07.18 at 23h 54m 18s.xml">
-      <configuration name="/home/viktor/java_projects/test_soteen/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_home_viktor_java_projects_test_soteen_src_test_resources_testng_xml - 2019.07.18 at 23h 55m 41s.xml">
       <configuration name="/home/viktor/java_projects/test_soteen/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -382,21 +369,36 @@
     <history-entry file="_home_viktor_java_projects_test_soteen_src_test_resources_testng_xml - 2019.07.19 at 00h 09m 06s.xml">
       <configuration name="/home/viktor/java_projects/test_soteen/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_soteen_src_test_resources_testng_xml - 2019.07.19 at 08h 03m 21s.xml">
+      <configuration name="/home/viktor/java_projects/test_soteen/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_soteen_src_test_resources_testng_xml - 2019.07.19 at 08h 15m 13s.xml">
+      <configuration name="/home/viktor/java_projects/test_soteen/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_soteen_src_test_resources_testng_xml - 2019.07.19 at 08h 17m 46s.xml">
+      <configuration name="/home/viktor/java_projects/test_soteen/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_soteen_src_test_resources_testng_xml - 2019.07.19 at 08h 20m 16s.xml">
+      <configuration name="/home/viktor/java_projects/test_soteen/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_soteen_src_test_resources_testng_xml - 2019.07.19 at 08h 20m 52s.xml">
+      <configuration name="/home/viktor/java_projects/test_soteen/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7407407" visible="true" weight="0.24940239" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7407407" visible="true" weight="0.25338647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24940239" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.25925925" side_tool="true" visible="true" weight="0.24940239" />
+      <window_info id="Favorites" order="6" sideWeight="0.25925925" side_tool="true" weight="0.24940239" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31390134" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31390134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -447,6 +449,26 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/BasePage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/comp/App.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/1563483101298.0.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -461,26 +483,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketProductPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="136">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -489,42 +494,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketResultsPage.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/utilities/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="221">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/MarketResultsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/tests/YandexMarketTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        <state relative-caret-position="182">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/reports/tests/1563483101298.0.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>

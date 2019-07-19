@@ -31,12 +31,13 @@ public class YandexMarketTest {
     @Test
     @Parameters({"searchQuery"})
     public void testIPhone8MarketPrice(String searchQuery) {
+        Product product = Product.IPhone8gb64;
 
         marketHomePage.Search(searchQuery);
-        int expectedPrice = marketResultsPage.GetProductScreenPrice(Product.IPhone8gb64);
+        int expectedPrice = marketResultsPage.GetProductScreenPrice(product);
         System.out.println(expectedPrice);
 
-        marketResultsPage.GoToProductPage(Product.IPhone8gb64);
+        marketResultsPage.GoToProductPage(product);
         int productPagePrice = marketProductPage.GetProductPrice();
         System.out.println(productPagePrice);
         Assert.assertEquals(productPagePrice, expectedPrice, "Prices are not equals");
