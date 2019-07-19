@@ -1,6 +1,5 @@
 package ru.comp.tests;
 
-import org.junit.After;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
